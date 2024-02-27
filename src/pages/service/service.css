@@ -1,0 +1,226 @@
+/* AboutUsPage.css */
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../images/view-anatomic-heart-model-educational-purpose-with-stethoscope_23-2149894530.jpg');
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; Remove the fixed height */
+    z-index: 1;
+    position: relative;
+}
+
+.about-us-content {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-us-images {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 120px; /* Move margin-top here */
+}
+
+.about-us-images img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
+
+.feature-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    background-color: #0463FA !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    overflow: hidden !important;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.feature-wrapper {
+    max-width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.child-wrapepr {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    --bs-gutter-y: 0;
+    --bs-gutter-x: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+}
+
+.left-section {
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeIn;
+    padding-left: calc(((100% - 1320px) / 2) + 0.75rem);
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    flex: 0 0 auto;
+    width: 50%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+}
+
+.left-section-child {
+    padding-left: 0 !important;
+    padding: 3rem !important;
+}
+
+.feat-page-name {
+    border-radius: 50rem !important;
+    color: #EFF5FF !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    border: 1px solid #C7DCFB !important;
+    display: inline-block !important;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.feat-heading {
+    color: #fff !important;
+    margin-bottom: 1.5rem !important;
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.feat-para {
+    color: #fff !important;
+    padding-bottom: 0.5rem !important;  
+    margin-bottom: 1.5rem !important;
+    margin-top: 0;
+}
+
+.feat-icon-wrapper {
+    --bs-gutter-y: 1.5rem;
+    --bs-gutter-x: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+}
+
+.icon-wrapper {
+    flex: 0 0 auto;
+    width: 50%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.icon-wrapper-item {
+    align-items: center !important;
+    display: flex !important;
+}
+
+
+.icon-box {
+    width: 55px;
+    height: 55px;
+    border-radius: 50% !important;
+    align-items: center !important;
+    background-color: #EFF5FF !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    display: flex !important;
+}
+
+.feat-icon {
+    color: #0463FA !important;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.content-wrapper {
+    margin-left: 1.5rem !important;
+}
+
+.content-para {
+    color: #fff !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0;
+}
+
+.content-heading {
+    color: #fff !important;
+    margin-bottom: 0 !important;
+    font-size: 1.25rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.right-section {
+    min-height: 400px;
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: fadeIn;
+    padding-right: 0 !important;
+    flex: 0 0 auto;
+    width: 50%;
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+    max-width: 100%;
+}
+
+.image-wrapper {
+    height: 100% !important;
+    position: relative !important;
+}
+
+.image {
+    object-fit: cover;
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

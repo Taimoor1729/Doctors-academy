@@ -1,0 +1,141 @@
+.footer-containner {
+    height: 200px;
+    width: auto;
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1B2C51 !important;
+    color: white;
+    gap: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.first-section-footer {
+    flex: 1;
+    /* text-align: center; */
+}
+
+.footer-logo {
+    margin: 0px;
+}
+
+.footer-paragraph {
+    margin: 0px;
+    font-size: small;
+    color: #d2c7c7;
+}
+
+.second-section-footer {
+    flex: .5;
+    /* text-align: center; */
+}
+
+.links-heading-ftr {
+    margin: 0px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.third-section-footer {
+    flex: .5;
+    /* text-align: center; */
+}
+
+.media-heading-ftr {
+    margin: 0px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.list-head {
+    list-style: none;
+    padding: 0px;
+    /* gap: 5px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.list-name {
+    font-size: small;
+    cursor: pointer;
+    color: #d2c7c7;
+}
+
+.bar {
+    border-bottom: 1px solid white;
+    margin-bottom: 105px;
+    width: 50%;
+    /* margin: 0px; */
+    padding: 0px;
+    margin: -25px 25%;
+}
+
+.social-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 20px;
+    gap: 5px;
+    align-items: center;
+}
+
+.social-icons {
+    
+    /* coo: 5px; */
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: var(--light); */
+    border: 1px solid #FFFFFF;
+    transition: .3s;
+    border-radius: 50% !important;
+    text-decoration: none;
+    border-color: #EFF5FF;
+    background-color: transparent;
+    color: white;
+}
+
+.social-icons:hover {
+    color: #0463fa;
+    background-color: #EFF5FF;
+    border-color: #EFF5FF;
+}
+
+
+.links-wrapper {
+    margin-top: 20px;
+}
+
+
+.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+    text-decoration: none;
+    cursor: pointer;
+    caret-color: transparent;
+}
+
+.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.btn-link:hover {
+    color: #0463fa;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
