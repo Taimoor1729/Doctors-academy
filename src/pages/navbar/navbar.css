@@ -5,6 +5,8 @@
     height: 70px;
     background-color: #1B2C51 !important;
     color: white;
+    z-index: 1;
+    position: relative;
 }
 
 .logo-wrapper {
