@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./imageSlider.css";
 import { animateScroll as scroll } from 'react-scroll';
+import home from '../../images/Desktop.jpg'
 
 const ImagesSlider = ({ imagesUrl }) => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -9,6 +10,7 @@ const ImagesSlider = ({ imagesUrl }) => {
   const scrollToSection = () => {
     scroll.scrollToBottom();
   };
+  console.log("imagesUrl");
 
   function showprevImage() {
     const newIndex = imageIndex === 0 ? imagesUrl.length - 1 : imageIndex - 1;
@@ -28,7 +30,7 @@ const ImagesSlider = ({ imagesUrl }) => {
 
   return (
     <div className="slider-containner">
-      <img src={imagesUrl[imageIndex]} alt="dashboard-img" className="img-slider-img" />
+      <img src={home} alt="dashboard-img" className="img-slider-img" />
       <button
         className="img-slider-btn"
         onClick={showprevImage}
