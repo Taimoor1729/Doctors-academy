@@ -3,7 +3,7 @@
 .about-us-container {
     display: flex;
     flex-direction: column;
-    background-image: url('../../images/view-anatomic-heart-model-educational-purpose-with-stethoscope_23-2149894530.jpg');
+    /* background-image: url('../../images/view-anatomic-heart-model-educational-purpose-with-stethoscope_23-2149894530.jpg'); */
     /* justify-content: center; */
     /* align-items: center; */
     /* height: 100vh; Remove the fixed height */

@@ -1,5 +1,5 @@
 import React from 'react';
-import first from  '../../images/Desktop - 1.jpg'
+import first from  '../../images/Desktop.jpg'
 import second from '../../images/Desktop - 2.jpg';
 import third from '../../images/Desktop - 3.jpg';
 import ImagesSlider from '../../components/imagesSlider';
