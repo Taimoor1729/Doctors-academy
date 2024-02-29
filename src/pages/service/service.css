@@ -70,7 +70,7 @@
 .left-section {
     visibility: visible;
     animation-delay: 0.1s;
-    animation-name: fadeIn;
+    animation-name: fadeInLeft;
     padding-left: calc(((100% - 1320px) / 2) + 0.75rem);
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
@@ -187,7 +187,7 @@
     min-height: 400px;
     visibility: visible;
     animation-delay: 0.5s;
-    animation-name: fadeIn;
+    animation-name: fadeInRight;
     padding-right: 0 !important;
     flex: 0 0 auto;
     width: 50%;
@@ -222,5 +222,30 @@
   
     to {
       opacity: 1;
+    }
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
     }
   }

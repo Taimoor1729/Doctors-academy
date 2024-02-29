@@ -88,7 +88,7 @@ const ContactUs = () => {
     <div className="container-contact">
         <div className="wrapper-container">
             <div className="wrapper">
-                <div className="wrapper-child" data-wow-delay="0.1s">
+                <div className="wrapper-child wow fadeInDown" data-wow-delay="0.3s">
                     <p className="page-name">Appointment</p>
                     <h1 className="contact-heading">Make An Appointment To Visit Our Doctor</h1>
                     <p className="contact-para">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
@@ -111,7 +111,7 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="form-wrapper" data-wow-delay="0.5s">
+                <div className="form-wrapper  wow fadeInUp" data-wow-delay="0.3s">
                   <h1 className='form-heading'>Book Now</h1>
                     <div className="form-wrapper-child">
                         <form>

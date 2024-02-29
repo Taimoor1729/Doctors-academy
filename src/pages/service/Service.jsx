@@ -40,7 +40,7 @@ const Service = () => {
         <div className="feature-container">
         <div className="feature-wrapper">
             <div className="child-wrapepr">
-                <div className="left-section" data-wow-delay="0.1s">
+                <div className="left-section wow fadeInLeft" data-wow-delay="0.1s">
                     <div className="left-section-child">
                         <p className="feat-page-name">Features</p>
                         <h1 className="feat-heading">Why Choose Us</h1>
@@ -93,7 +93,7 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
-                <div className="right-section" data-wow-delay="0.5s" >
+                <div className="right-section wow fadeInRight" data-wow-delay="0.5s" >
                     <div className="image-wrapper">
                         <img className="image" src={first}  alt="" />
                     </div>
