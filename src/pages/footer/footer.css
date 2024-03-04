@@ -139,3 +139,12 @@
     letter-spacing: 1px;
     box-shadow: none;
 }
+
+
+@media (max-width: 768px) {
+    .footer-containner{
+        padding: 40px;
+        height: auto;
+        flex-direction: column;
+    }
+  }
