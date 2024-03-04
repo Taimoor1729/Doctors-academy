@@ -79,16 +79,9 @@ const Footer = () => {
             <a className="social-icons" href=""><i className="fab fa-youtube"></i></a>
             <a className="social-icons" href=""><i className="fab fa-linkedin-in"></i></a>
           </div>
-          {/* <ul className='list-head'>
-            <li className='list-name'>facebook</li>
-            <li className='list-name'>Linked</li>
-            <li className='list-name'>Twitter</li>
-          </ul> */}
         </div>
       </div>
-      <div className='bar'>
-        {/* <h1>hello</h1> */}
-      </div>
+      <div className='bar'></div>
     </div>
   )
 }

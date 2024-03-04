@@ -106,7 +106,7 @@ const ImagesSlider = ({ imagesUrl }) => {
       </button>
       <div className="academy-cred">
         <h1 className="dashboard-heading wow fadeOutLeft">Book your Appointment</h1>
-        <p style={{ fontSize: "larger", textAlign: "center" }} className="dashboard-para wow fadeOutRight">
+        <p className="dashboard-para wow fadeOutRight">
           Dr Junaid Jahangir Abbasi Consultant Pediatrician and Assistant
           Professor of Pediatrics is the founder of this Academy in Pakistan.
           The Academy has provided massive level of disease awareness to the
