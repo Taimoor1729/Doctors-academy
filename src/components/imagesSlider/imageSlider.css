@@ -158,4 +158,7 @@
     .academy-cred {
       text-align: center;
     }
+    .slider-containner {
+      overflow-x: hidden;
+    }
       }

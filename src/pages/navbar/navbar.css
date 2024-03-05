@@ -59,14 +59,14 @@ display: none;
         border-bottom: 1px solid white;
         width: 50%;;
         padding: 0px;
-        margin: -25px 25%;
+        margin-left: 30px;
         display: flex;
     }
 
 
 
     .link-wrapper {
-        display: none; /* Hide the links on small screens */
+        display: none; 
         flex-direction: column;
         position: absolute;
         top: 70px;
@@ -78,7 +78,8 @@ display: none;
 
     .navbar-link {
         padding: 15px;
-        text-align: center;
+        text-align: start;
+        padding-left: 30px;
     }
 
 
