@@ -394,6 +394,15 @@
     width: 100%;
     gap: 0;
   }
+  .mail-container {
+    padding: 2rem !important;
+  }
+  .number-wrapper {
+    padding: 2rem !important;
+  }
+  .number {
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 768px) {

@@ -164,6 +164,9 @@
   margin-top: -10px;
   box-shadow: 0 0.5rem 1.5rem rgb(51 42 221 / 79%);
 }
+.service-item-change:hover .btn {
+  width: 140px;
+}
 
 .btn {
   width: 40px;
