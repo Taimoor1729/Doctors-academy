@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <div className='footer-containner'>
         <div className='first-section-footer'>
-          <div style={{ width: '75%' }}>
+          <div style={{ width: '70%' }}>
             <h1 className='footer-logo'>Pedistrain</h1>
             <p className='footer-paragraph'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non justo eget
@@ -17,16 +17,6 @@ const Footer = () => {
         </div>
         <div className='second-section-footer'>
           <h2 className='links-heading-ftr'>Quik Links</h2>
-          {/* <div className='links-wrapper'>
-            <a class="btn-link" href="">About Us</a>
-            <a class="btn-link" href="">Contact Us</a>
-            <a class="btn-link" href="">Our Services</a>
-          </div> */}
-
-          {/* <a class="btn-link" href="">Terms & Condition</a> */}
-          {/* <a class="btn-link" href="">Support</a> */}
-
-
           <ul className='list-head'>
           <ScrollLink
           to="homeSection"

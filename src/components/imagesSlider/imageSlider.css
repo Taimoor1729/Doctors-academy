@@ -1,9 +1,5 @@
 .slider-containner {
-  /* width: 100%; */
   height: 90vh;
-  /* position: relative; */
-  /* opacity: .7; */
-  /* z-index: -1; */
   background-color: black;
   }
 
@@ -28,7 +24,6 @@
   animation: fade-out linear forwards;
   animation-timeline: view() !important;
   animation-range: exit;
-  /* top: 0px; */
   transition: opacity 1.5s ease-in-out;
   }
   

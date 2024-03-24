@@ -6,7 +6,10 @@
     background-color: #1B2C51 !important;
     color: white;
     z-index: 1;
-    position: relative;
+    /* position: relative; */
+    position: fixed;
+    width: 100%;
+    z-index: 9;
 }
 
 .nav-bar { 
